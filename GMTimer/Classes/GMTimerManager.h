@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GMTimer.h"
-#import "GMTimerTarget.h"
+#import <GMTimer/GMTimer.h>
+#import <GMTimer/GMTimerTarget.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 

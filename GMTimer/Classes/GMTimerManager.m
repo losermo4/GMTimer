@@ -6,7 +6,6 @@
 //
 
 #import "GMTimerManager.h"
-#import "GMTimerTarget.h"
 
 extern void GMTimerInvoke(NSObject *target, SEL aSel, NSInteger value);
 

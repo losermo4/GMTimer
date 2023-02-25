@@ -21,16 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gaomin2588/GMTimer'
+  s.homepage         = 'https://github.com/losermo4'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'loser' => 'losermo4@gmail.com' }
   s.source           = { :git => 'https://github.com/losermo4/GMTimer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GMTimer/Classes/**/*'
+  
+  
+  s.user_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
+  s.pod_target_xcconfig = {
+     'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
   
   # s.resource_bundles = {
   #   'GMTimer' => ['GMTimer/Assets/*.png']
