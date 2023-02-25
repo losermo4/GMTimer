@@ -1,0 +1,6 @@
+framework module GMTimer {
+  umbrella header "GMTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

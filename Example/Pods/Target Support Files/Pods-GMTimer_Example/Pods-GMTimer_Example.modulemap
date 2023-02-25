@@ -1,0 +1,6 @@
+framework module Pods_GMTimer_Example {
+  umbrella header "Pods-GMTimer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMTimer (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMTimer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GMTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMTimer: 635a987e82344ff84c436117899a0288ad54707c
+
+PODFILE CHECKSUM: 1b10b1f9a397c9dbdea01f5e7ecd8f885288af3e
+
+COCOAPODS: 1.9.1
