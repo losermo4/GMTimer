@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GMTimer (0.0.1)
+  - GMTimer (1.0.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GMTimer: 1c9f5427b6fee6184535a10c49c18d35e8597cee
+  GMTimer: a595fdfaf352134287c9b0eea260449096c7e048
 
 PODFILE CHECKSUM: 1b10b1f9a397c9dbdea01f5e7ecd8f885288af3e
 

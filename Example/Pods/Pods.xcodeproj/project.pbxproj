@@ -766,11 +766,10 @@
 			};
 			name = Debug;
 		};
-		3C2D57A069282AB5EB520C1FDC37B15B /* Debug */ = {
+		326FD76DA3A5F6A6B31F437BC6AA0316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AEC28343FE9C0D8CDF7EC85163E4438 /* GMTimer.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -783,7 +782,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GMTimer/GMTimer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GMTimer/GMTimer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GMTimer/GMTimer.modulemap";
 				PRODUCT_MODULE_NAME = GMTimer;
@@ -829,39 +828,6 @@
 			};
 			name = Debug;
 		};
-		49BBD97CE8CF71A7B4070A9A054987ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92BB99318E0D3F17658492D99178806 /* GMTimer.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMTimer/GMTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMTimer/GMTimer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMTimer/GMTimer.modulemap";
-				PRODUCT_MODULE_NAME = GMTimer;
-				PRODUCT_NAME = GMTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6124F3ACA57360C77A4CD377E21076E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08AE64231A6BF9EF1D62DA261A3585CA /* Pods-GMTimer_Example.release.xcconfig */;
@@ -890,6 +856,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B8D624EA4EAEBB54BF11E4DE426A846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92BB99318E0D3F17658492D99178806 /* GMTimer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMTimer/GMTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMTimer/GMTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMTimer/GMTimer.modulemap";
+				PRODUCT_MODULE_NAME = GMTimer;
+				PRODUCT_NAME = GMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1047,8 +1045,8 @@
 		5BA31E0587373092A69DFC612296A46B /* Build configuration list for PBXNativeTarget "GMTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C2D57A069282AB5EB520C1FDC37B15B /* Debug */,
-				49BBD97CE8CF71A7B4070A9A054987ED /* Release */,
+				326FD76DA3A5F6A6B31F437BC6AA0316 /* Debug */,
+				6B8D624EA4EAEBB54BF11E4DE426A846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
